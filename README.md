@@ -91,8 +91,7 @@ Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
 ```
 Получил данные кластера microk8s на удаленной машине:
 user@k8s:~$ sudo microk8s config
-Потом внес параметры cluster, user и context на локальной машине
-.kube/config
+Потом внес параметры cluster, user и context на локальной машине в файл .kube/config
 
 C:\Windows\system32>kubectl config get-contexts
 CURRENT   NAME       CLUSTER            AUTHINFO   NAMESPACE
