@@ -22,7 +22,9 @@
     - sudo apt update,
     - sudo apt install snapd,
     - sudo snap install microk8s --classic
+    - 
 ![изображение](https://github.com/stepynin-georgy/hw_k8s_1/blob/main/img/Screenshot_124.png)
+
     - добавить локального пользователя в группу `sudo usermod -a -G microk8s $USER`,
     - изменить права на папку с конфигурацией `sudo chown -f -R $USER ~/.kube`.
 
