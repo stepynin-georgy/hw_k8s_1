@@ -80,7 +80,11 @@
 ### Задание 2. Установка и настройка локального kubectl
 1. Установить на локальную машину kubectl.
 
-![изображение](https://github.com/stepynin-georgy/hw_k8s_1/blob/main/img/Screenshot_131.png)
+```
+C:\Windows\system32>kubectl version --client
+Client Version: v1.29.1
+Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
+```
 
 2. Настроить локально подключение к кластеру.
 
